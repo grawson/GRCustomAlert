@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'GRCustomAlert_Example', :exclusive => true do
+  pod "GRCustomAlert", :path => "../"
+end
+
+target 'GRCustomAlert_Tests', :exclusive => true do
+  pod "GRCustomAlert", :path => "../"
+
+  
+end
