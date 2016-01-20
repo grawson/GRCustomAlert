@@ -7,18 +7,35 @@
 //
 
 import UIKit
+import GRCustomAlert
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBAction func showAlert(sender: UIButton) {
+        let vc = CustomAlertViewController()
+        
+        // alert.titleText =           //title text
+        // alert.messageText =         //message text
+        // alert.titleFont =           //title font
+        // alert.messageFont =         //message font
+        
+        // alert.viewColor =           //background color of the alert
+        // alert.accentColor =         //color of text and exclamation mark
+        
+        // alert.frameWidth =          //width of the alert view
+        // alert.contentHeight =       //height of the alert view
+        // alert.offset =              //Open space between the content and the button
+        // alert.actionHeight =        //height of the button
+        // alert.rounded =             //radius of button's rounded corners
+        
+        // alert.animation =           //Animation type for presentation and dismissal of alert
+        
+        addChildViewController(vc)
+        view.addSubview(vc.view)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
+
+
+
+
 

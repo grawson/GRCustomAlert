@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  GRCustomAlert: f2501b1d48ddeb5baba75166821601edaf24f54c
+  GRCustomAlert: 032a2df6910a883a9ef291140b885fffbf4c4c2d
 
 COCOAPODS: 0.39.0

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '71310249632A50C6784E09FF'
+               BlueprintIdentifier = 'FEF84A7CBCC05A96C05E053B'
                BlueprintName = 'GRCustomAlert'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'GRCustomAlert.framework'>
