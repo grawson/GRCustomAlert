@@ -14,21 +14,21 @@ class ViewController: UIViewController {
     @IBAction func showAlert(sender: UIButton) {
         let vc = CustomAlertViewController()
         
-        // alert.titleText =           //title text
-        // alert.messageText =         //message text
-        // alert.titleFont =           //title font
-        // alert.messageFont =         //message font
+        // vc.alert.titleText =            //title text
+        // vc.alert.messageText =         //message text
+        // vc.alert.titleFont =           //title font
+        // vc.alert.messageFont =         //message font
         
-        // alert.viewColor =           //background color of the alert
-        // alert.accentColor =         //color of text and exclamation mark
+        // vc.alert.viewColor =           //background color of the alert
+        // vc.alert.accentColor =         //color of text and exclamation mark
         
-        // alert.frameWidth =          //width of the alert view
-        // alert.contentHeight =       //height of the alert view
-        // alert.offset =              //Open space between the content and the button
-        // alert.actionHeight =        //height of the button
-        // alert.rounded =             //radius of button's rounded corners
+        // vc.alert.frameWidth =          //width of the alert view
+        // vc.alert.contentHeight =       //height of the alert view
+        // vc.alert.offset =              //Open space between the content and the button
+        // vc.alert.actionHeight =        //height of the button
+        // vc.alert.rounded =             //radius of button's rounded corners
         
-        // alert.animation =           //Animation type for presentation and dismissal of alert
+        // vc.alert.animation =             //Animation type for presentation and dismissal of alert
         
         addChildViewController(vc)
         view.addSubview(vc.view)

@@ -10,7 +10,7 @@ import UIKit
 
 public class CustomAlertViewController: UIViewController, CustomAlertDelegate {
 
-    var alert = CustomAlertView()
+    public var alert = CustomAlertView()
     
     override public func viewDidLoad() {
         super.viewDidLoad()
@@ -28,10 +28,11 @@ public class CustomAlertViewController: UIViewController, CustomAlertDelegate {
     /**
      Remove the view controller and view fron the parent.
      */
-    func alertWasDismissed() {
+    public func alertWasDismissed() {
         self.view.removeFromSuperview()
         self.removeFromParentViewController()
     }
+
 }
 
 

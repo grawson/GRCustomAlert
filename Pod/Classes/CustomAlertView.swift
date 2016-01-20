@@ -16,7 +16,7 @@ import UIKit
 
 
 //Animation types for presentation and dismissal
-enum Animation {
+public enum Animation {
     
     /// Present from top, dismiss to bottom
     case FlyDown
@@ -28,7 +28,7 @@ enum Animation {
 /**
  *  Delegate protocol.
  */
-protocol CustomAlertDelegate {
+public protocol CustomAlertDelegate {
     
     /**
      Called when the alert view has been dismissed.
@@ -36,55 +36,55 @@ protocol CustomAlertDelegate {
     func alertWasDismissed()
 }
 
-class CustomAlertView: UIView {
+public class CustomAlertView: UIView {
     
     /// Delegate
-    var delegate: CustomAlertDelegate?
+    public var delegate: CustomAlertDelegate?
     
     /// Width of the alert view
-    var frameWidth: CGFloat = 285
+    public var frameWidth: CGFloat = 285
     
     /// Height of the content containing the title and the message
-    var contentHeight: CGFloat = 147
+    public var contentHeight: CGFloat = 147
     
     /// Space in between the content and the action buttons
-    var offset: CGFloat = 7
+    public var offset: CGFloat = 7
     
     /// Height of the action button
-    var actionHeight: CGFloat = 50
+    public var actionHeight: CGFloat = 50
     
     /// radius of the rounded corners
-    var rounded: CGFloat = 4
+    public var rounded: CGFloat = 4
 
     /// Background color of the alert view
-    var viewColor = UIColor(
+    public var viewColor = UIColor(
         red: 0xd1 / 255.0, green: 0xc6 / 255.0,
         blue: 0xff / 255.0, alpha: 1.0
     )
     
     /// Color of the text and exclamation mark
-    var accentColor = UIColor(
+    public var accentColor = UIColor(
         red: 0xd1 / 255.0 - 0.5, green: 0xc6 / 255.0 - 0.5,
         blue: 0xff / 255 - 0.5, alpha: 1.0
     )
     
     /// title for the alert
-    var titleText = "Error"
+    public var titleText = "Error"
     
     /// message for the alert
-    var messageText = "Uh oh, we've got an error over here, fix it up and try again."
+    public var messageText = "Uh oh, we've got an error over here, fix it up and try again."
     
     /// title font
-    var titleFont = "Futura-CondensedExtraBold"
+    public var titleFont = "Futura-CondensedExtraBold"
     
     /// Message and button font
-    var messageFont = "Futura"
+    public var messageFont = "Futura"
     
     /// Animation for presentation and dismissal of alert
-    var animation: Animation = .FlyDown
+    public var animation: Animation = .FlyDown
     
     /// Container holding alert and dimView
-    var parentView = UIApplication.sharedApplication().keyWindow
+    public var parentView = UIApplication.sharedApplication().keyWindow
     
     /// Total height of the alert view frame
     private var frameHeight: CGFloat {
