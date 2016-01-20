@@ -7,7 +7,7 @@
 
 ## Screenshot
 
-![Custom iOS Alert]()
+![Custom iOS Alert](https://github.com/grawson/GRCustomAlert/blob/master/Media/custom-alert-screenshot.png)
 
 ## Usage
 
