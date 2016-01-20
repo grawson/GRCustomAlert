@@ -8,11 +8,11 @@
 
 import UIKit
 
-class CustomAlertViewController: UIViewController, CustomAlertDelegate {
+public class CustomAlertViewController: UIViewController, CustomAlertDelegate {
 
     var alert = CustomAlertView()
     
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         alert.delegate = self
         alert.present()
@@ -21,7 +21,7 @@ class CustomAlertViewController: UIViewController, CustomAlertDelegate {
     /**
      Always keep the alert centered on the screen.
      */
-    override func viewWillLayoutSubviews() {
+    override public func viewWillLayoutSubviews() {
         alert.recenter()
     }
     
