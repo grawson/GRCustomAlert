@@ -1,0 +1,14 @@
+PODS:
+  - GRCustomAlert (0.1.0)
+
+DEPENDENCIES:
+  - GRCustomAlert (from `../`)
+
+EXTERNAL SOURCES:
+  GRCustomAlert:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GRCustomAlert: f2501b1d48ddeb5baba75166821601edaf24f54c
+
+COCOAPODS: 0.39.0

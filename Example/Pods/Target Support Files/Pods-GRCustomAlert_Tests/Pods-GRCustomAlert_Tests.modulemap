@@ -1,0 +1,6 @@
+framework module Pods_GRCustomAlert_Tests {
+  umbrella header "Pods-GRCustomAlert_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
